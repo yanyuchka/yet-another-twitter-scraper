@@ -7,11 +7,6 @@ import tweepy as tw
 import sys
 
 ## user credentials to access Twitter API should be passed to the script 
-consumer_key =  sys.argv[1]
-consumer_secret = sys.argv[2]
-access_token = sys.argv[3]
-access_token_secret = sys.argv[4]
-
 ## simple length check on the credentials
 if len(sys.argv) > 4:
   consumer_key =  sys.argv[1]
